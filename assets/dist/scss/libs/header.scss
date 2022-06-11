@@ -1,0 +1,103 @@
+header{
+    z-index: 9;
+    width: 100%;
+    padding: 12px 0;
+    position: absolute;
+    .logo{
+        width: 210px;
+        color: #ffffff;
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin: 0 auto 24px;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        font-family: 'Conv_ofont.ru_Acrom';
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .tel{
+        display: table;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 25px;
+        position: relative;
+        margin: 0 auto 11px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        &:hover{
+            color: #f9ae51;
+            i{
+                color: #ffffff;  
+            }
+        }
+        i{
+            left: 0;
+            top: 50%;
+            font-size: 12px;
+            color: #f9ae51;
+            position: absolute;
+            -webkit-transform: translate(0, -50%);
+            -moz-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            -o-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+    }
+    .order{
+        display: table;
+        margin: 0 auto;
+        color: #f9ae51;
+        font-size: 14px;
+        line-height: 24px;
+        border-radius: 24px;
+        letter-spacing: 1.4px;
+        padding: 11px 34px 10px;
+        border: 1px solid #f9ae51;
+        font-family: 'Conv_GothaProMed';
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        &:hover{
+            color: #ffffff;
+            background-image: linear-gradient(to top, #f29116 0%, #f9ae51 100%);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        .logo {
+            float: left;
+            margin: 5px 0 0;
+            text-align: left;
+        }
+        .header-contact{
+            float: right;
+        }
+        .tel{
+            float: left;
+            margin: 15px 17px 0 0;
+        }
+        .order{
+            float: left;
+        }
+    }
+
+}

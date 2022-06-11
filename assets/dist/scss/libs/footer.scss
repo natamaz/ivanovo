@@ -1,0 +1,109 @@
+footer{
+    text-align: center;
+    padding: 52px 0 49px;
+    h5{
+        color: #251a27;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        letter-spacing: 0.38px;
+        text-transform: uppercase;
+        font-family: 'Conv_GothaProMed';
+    }
+    p{
+        color: #251a27;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 33px;
+    }
+    h4{
+        color: #251a27;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        font-family: 'Conv_GothaProMed';
+    }
+    ul{
+        text-align: center;
+        margin-bottom: 10px;
+        li{
+            margin: 0 1px;
+            position: relative;
+            display: inline-block;
+            &:last-child{
+                a{
+                    i{
+                        left: 38%;
+                        font-size: 12px;
+                    }
+                }
+            }
+            a{
+                width: 34px;
+                height: 34px;
+                border-radius: 50%;
+                display: inline-block;
+                box-shadow: 0 29px 59px rgba(0, 0, 0, 0.22);
+                background-image: linear-gradient(to top, #f29116 0%, #f9ad4f 100%);
+                &:hover{
+                    background-image: linear-gradient(to top, #f65e2f 0%, #f29116 100%);
+                }
+                i{
+                    top: 47%;
+                    left: 50%;
+                    font-size: 16px;
+                    color: #ffffff;
+                    position: absolute;
+                    -webkit-transform: translate(-50%, -50%);
+                    -moz-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    -o-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    &::before{
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+    .stud{
+        color: #c1c1c1;
+        font-size: 14px;
+        line-height: 20px;
+        display: inline-block;
+        text-decoration: underline;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    footer {
+        padding: 27px 0 35px;
+        .footer-left{
+            float: left;
+            text-align: left;
+        }
+        .footer-right{
+            float: right;
+            text-align: right;
+        }
+        h5{
+            width: 200px;
+            margin-bottom: 14px;
+        }
+        p{
+            margin-bottom: 0;
+        }
+        h4{
+            float: left;
+            margin-top: 8px;
+            font-size: 22px;
+            margin-right: 20px;
+        }
+        ul{
+            float: right;
+        }
+    }
+
+}
